@@ -1,6 +1,7 @@
 package mod.units;
 
 import mod.units.diamond.goblin.*;
+import mod.units.diamond.nymph.*;
 
 
 public class X_Unit_Types {
