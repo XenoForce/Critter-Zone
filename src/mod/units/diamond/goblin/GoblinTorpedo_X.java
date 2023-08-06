@@ -77,7 +77,7 @@ public class GoblinTorpedo_X extends BasicBulletType {
 		backColor  = Color.valueOf("44ee77");
 		lightColor = Color.valueOf("aaff77");
 		
-		sprite = "critter-zone-diamondbomb";
+		sprite = "bullet";        //Was: "critter-zone-diamondbomb";
 		
 	} //Constructor
 	

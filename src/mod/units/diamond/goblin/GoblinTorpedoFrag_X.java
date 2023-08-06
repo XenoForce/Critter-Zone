@@ -66,7 +66,7 @@ public class GoblinTorpedoFrag_X extends BasicBulletType {
 		
 		//absorbable = false;
 		
-		sprite = "critter-zone-diamondbullet";
+		sprite = "circle-bullet";        //Was: "critter-zone-diamondbullet";
 		
 	} //Constructor
 	
