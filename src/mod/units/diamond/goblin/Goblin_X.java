@@ -82,14 +82,14 @@ public class Goblin_X extends UnitType {
 		canBoost = false;
 		hovering = true;
 		
-		//weapons:[] - scripted weaponry
+		// Weapons:
 		
-		weapons.add( 
-			new MedGnd_T5_Weapon_G(),
-			new MedGnd_T5_Weapon_A(),
-			new MedGnd_T5_Weapon_B(),
-			new MedGnd_T5_Weapon_C()
-		);
+		weapons.add( new MedGnd_T5_Weapon_G() );
+		weapons.add( new MedGnd_T5_Weapon_A() );
+		weapons.add( new MedGnd_T5_Weapon_B() );
+		weapons.add( new MedGnd_T5_Weapon_C() );
+		weapons.add( new MedGnd_T5_Weapon_D() );
+		weapons.add( new MedGnd_T5_Weapon_E() );
 		
 	} //Constructor
 	
