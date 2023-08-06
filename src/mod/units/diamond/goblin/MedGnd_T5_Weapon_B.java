@@ -30,63 +30,32 @@ import static arc.math.Angles.*;
 import static mindustry.Vars.*;
 
 
-public class Goblin_X extends UnitType {
+public class MedGnd_T5_Weapon_B extends Weapon {
 	
 	//---------------------------------------------------------------//
 	//  Constructor                                                  //
 	//---------------------------------------------------------------//
-	public Goblin_X() {
+	public MedGnd_T5_Weapon_B() {
 		
-		super("goblin-x");
+		name = "critter-zone-goblin-launcher";
+		reload = 72;
+		cooldownTime = 18;
+		shoot.shots = 1;
+		shootY = 5;
+		inaccuracy = 0;
+		recoil = 0;
+		x = -16;
+		y = -16;
+		shootCone = 2;
+		rotateSpeed = 4;
+		rotate = true;
+		mirror = true;
+		soundPitchMin = 0.67f;
+		soundPitchMax = 0.83f;
+		top = false;
+		shootSound = Sounds.railgun;
 		
-		localizedName = "Goblin X";
-		constructor = EntityMapping.map("toxopid");
-		
-		speed = 0.87f;
-		
-		boostMultiplier = 0.95f;
-		drag = 0.4f;
-		accel = 0.5f;
-		rotateSpeed = 0.75f;
-		baseRotateSpeed = 1.25f;
-		buildSpeed = 6;
-		buildBeamOffset = 0;
-		lightRadius = 60;
-		lightColor = Color.valueOf("a2f32d");
-		lightOpacity = 0.9f;
-		
-		health = 15000;
-		armor = 220;
-		
-		aimDst = 0;
-		range = 900;
-		itemCapacity = 300;
-		
-		legCount = 8;
-		rippleScale = 2.5f;
-		legLength = 80;
-		legForwardScl = 0.64f;
-		legExtension = 7;
-		legMoveSpace = 0.9f;
-		legGroupSize = 3;
-		shadowElevation = 0.55f;
-		legMaxLength = 2.1f;
-		legSpeed = 0.15f;
-		hitSize = 35;
-		legSplashDamage = 100;
-		legSplashRange = 25;
-		faceTarget = false;
-		allowLegStep = true;
-		engineOffset = 5;
-		engineSize = 2;
-		canBoost = false;
-		hovering = true;
-		
-		//weapons:[] - scripted weaponry
-		
-		weapons.add( new MedGnd_T5_Weapon_A() );
-		weapons.add( new MedGnd_T5_Weapon_B() );
-		
+		bullet = new GoblinTorpedo_X();
 		
 	} //Constructor
 	
