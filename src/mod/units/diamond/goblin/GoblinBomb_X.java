@@ -72,7 +72,7 @@ public class GoblinBomb_X extends ArtilleryBulletType {
 		backColor  = Color.valueOf("44ee77");
 		lightColor = Color.valueOf("aaff77");
 		
-		sprite = "critter-zone-diamondbullet";
+		sprite = "circle-bullet";        //Was: "critter-zone-diamondbullet";
 		
 	} //Constructor
 	
