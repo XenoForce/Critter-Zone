@@ -8,6 +8,7 @@ public class X_Unit_Types {
 	//---------------------------------------------------------------//
 	//  Static Attributes:                                           //
 	//---------------------------------------------------------------//
+	public static Nymph_X           nymph_x           = new Nymph_X         ();
 	public static Goblin_X          goblin_x          = new Goblin_X        ();
 	
 	public static Abolisher_X       abolisher_x       = new Abolisher_X     ();

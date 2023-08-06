@@ -81,6 +81,7 @@ public class CritterMod extends Mod {
 		
 		// "Diamond Ore Mod" Units:
 		
+		arrContent.add( X_Unit_Types.nymph_x  );
 		arrContent.add( X_Unit_Types.goblin_x );
 		
 		
