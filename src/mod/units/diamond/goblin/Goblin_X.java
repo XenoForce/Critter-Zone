@@ -90,6 +90,7 @@ public class Goblin_X extends UnitType {
 		weapons.add( new MedGnd_T5_Weapon_C() );
 		weapons.add( new MedGnd_T5_Weapon_D() );
 		weapons.add( new MedGnd_T5_Weapon_E() );
+		weapons.add( new MedGnd_T5_Weapon_F() );
 		
 	} //Constructor
 	
