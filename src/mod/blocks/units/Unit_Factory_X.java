@@ -52,6 +52,7 @@ public class Unit_Factory_X extends UnitFactory {
 		requirements( Category.units, zeroItems );
 		
 		plans = Seq.with(
+			new UnitPlan( X_Unit_Types.gnome_x          , 180f, zero ),
 			new UnitPlan( X_Unit_Types.pixie_x          , 180f, zero ),
 			new UnitPlan( X_Unit_Types.nymph_x          , 180f, zero ),
 			new UnitPlan( X_Unit_Types.goblin_x         , 180f, zero ),
