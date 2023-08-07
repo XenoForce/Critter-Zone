@@ -49,7 +49,7 @@ public class PixieBolt_X extends BasicBulletType {
 		
 		despawnEffect = Fx.heal;
 		hitEffect     = Fx.smeltsmoke;
-		trailEffect   = Fx.railTrail;          //Was: pixieBoltTrail;
+		trailEffect   = Fx.artilleryTrail;        //Was: pixieBoltTrail;
 		shootEffect   = Fx.shootHeal;
 		
 		speed = 4;
