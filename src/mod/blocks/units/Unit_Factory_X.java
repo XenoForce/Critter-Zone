@@ -32,7 +32,6 @@ import mindustry.world.meta.*;
 import static mindustry.type.ItemStack.*;
 
 import mod.units.*;
-import mod.units.diamond.goblin.*;
 
 
 public class Unit_Factory_X extends UnitFactory {
@@ -53,6 +52,7 @@ public class Unit_Factory_X extends UnitFactory {
 		requirements( Category.units, zeroItems );
 		
 		plans = Seq.with(
+			new UnitPlan( X_Unit_Types.pixie_x          , 180f, zero ),
 			new UnitPlan( X_Unit_Types.nymph_x          , 180f, zero ),
 			new UnitPlan( X_Unit_Types.goblin_x         , 180f, zero ),
 			
