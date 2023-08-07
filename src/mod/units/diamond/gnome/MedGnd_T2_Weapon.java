@@ -38,7 +38,7 @@ public class MedGnd_T2_Weapon extends Weapon {
 	public MedGnd_T2_Weapon() {
 		
 		name = "critter-zone-gnome-beam";
-		reload = 1;
+		reload = 20;
 		cooldownTime = 18;
 		shoot.shots = 1;
 		inaccuracy = 0;
@@ -49,7 +49,9 @@ public class MedGnd_T2_Weapon extends Weapon {
 		shootY = 4;
 		rotateSpeed = 360;
 		rotate = true;
-		continuous = true;
+		
+		// continuous = true;
+		
 		mirror = false;
 		soundPitchMin = 0.67f;
 		soundPitchMax = 1.83f;

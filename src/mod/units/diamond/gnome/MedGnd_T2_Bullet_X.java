@@ -30,23 +30,26 @@ import static arc.math.Angles.*;
 import static mindustry.Vars.*;
 
 
-public class MedGnd_T2_Bullet_X extends BulletType {
+public class MedGnd_T2_Bullet_X extends BasicBulletType {
 	
 	//---------------------------------------------------------------//
 	//  Constructor                                                  //
 	//---------------------------------------------------------------//
 	public MedGnd_T2_Bullet_X() {
 		
-		damage       = -110;
-		lifetime     = 1;
+		damage   = 25;
+		speed    = 4;
+		lifetime = 40;
+		
+		width    = 4;
+		height   = 6;
+		
 		collides     = false;
-		keepVelocity = false;
-		backMove     = false;
-		speed        = 144;
+		keepVelocity = true;
 		
 		buildingDamageMultiplier = 0.6f;
 		
-		trailEffect   = Fx.missileTrail;        //Was: medGndT2bulletTrail;
+		trailEffect   = Fx.none;        //Was: medGndT2bulletTrail;
 		despawnEffect = Fx.none;
 		smokeEffect   = Fx.none;
 		shootEffect   = Fx.none;
@@ -56,6 +59,8 @@ public class MedGnd_T2_Bullet_X extends BulletType {
 		
 		status = StatusEffects.shocked;
 		statusDuration = 30;
+		
+		sprite = "circle-bullet";
 		
 	} //Constructor
 	
