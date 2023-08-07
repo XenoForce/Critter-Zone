@@ -30,12 +30,12 @@ import static arc.math.Angles.*;
 import static mindustry.Vars.*;
 
 
-public class MedGnd_T3_Weapon_A extends Weapon {
+public class MedGnd_T3_Weapon_B extends Weapon {
 	
 	//---------------------------------------------------------------//
 	//  Constructor                                                  //
 	//---------------------------------------------------------------//
-	public MedGnd_T3_Weapon_A() {
+	public MedGnd_T3_Weapon_B() {
 		
 		name = "critter-zone-pixie-bolt";
 		reload = 27;
@@ -43,8 +43,8 @@ public class MedGnd_T3_Weapon_A extends Weapon {
 		shoot.shots = 1;
 		inaccuracy = 0;
 		recoil = 0;
-		x = 6;
-		y = 6;
+		x = -6;
+		y = -6;
 		shootCone = 2;
 		rotateSpeed = 8;
 		rotate = true;
