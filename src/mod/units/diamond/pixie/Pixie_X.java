@@ -83,8 +83,8 @@ public class Pixie_X extends UnitType {
 		
 		// Weapons:
 		
-		
-		
+		weapons.add( new MedGnd_T3_Weapon_A() );
+		weapons.add( new MedGnd_T3_Weapon_B() );
 		
 	} //Constructor
 	
