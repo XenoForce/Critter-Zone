@@ -37,8 +37,26 @@ public class MedGnd_T1_Weapon extends Weapon {
 	//---------------------------------------------------------------//
 	public MedGnd_T1_Weapon() {
 		
+		name = "critter-zone-spriite-beam";
+		reload = 1;
+		cooldownTime = 18;
+		shoot.shots = 1;
+		inaccuracy = 0;
+		recoil = 0;
+		x = 0;
+		y = 0;
+		shootY = 4;
+		shootCone = 2;
+		rotateSpeed = 360;
+		rotate = true;
+		continuous = true;
+		mirror = false;
+		soundPitchMin = 0.67f;
+		soundPitchMax = 1.83f;
+		top = false;
+		shootSound = Sounds.beam;        //Was: Vars.tree.loadSound("medBeam1");
 		
-		
+		bullet = new MedGnd_T1_Bullet_X();
 		
 	} //Constructor
 	
