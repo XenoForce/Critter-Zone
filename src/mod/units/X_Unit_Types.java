@@ -1,5 +1,6 @@
 package mod.units;
 
+import mod.units.diamond.spriite.*;
 import mod.units.diamond.gnome.*;
 import mod.units.diamond.pixie.*;
 import mod.units.diamond.nymph.*;
@@ -11,10 +12,11 @@ public class X_Unit_Types {
 	//---------------------------------------------------------------//
 	//  Static Attributes:                                           //
 	//---------------------------------------------------------------//
-	public static Gnome_X           gnome_x           = new Gnome_X  ();
-	public static Pixie_X           pixie_x           = new Pixie_X  ();
-	public static Nymph_X           nymph_x           = new Nymph_X  ();
-	public static Goblin_X          goblin_x          = new Goblin_X ();
+	public static Spriite_X         spriite_x         = new Spriite_X ();
+	public static Gnome_X           gnome_x           = new Gnome_X   ();
+	public static Pixie_X           pixie_x           = new Pixie_X   ();
+	public static Nymph_X           nymph_x           = new Nymph_X   ();
+	public static Goblin_X          goblin_x          = new Goblin_X  ();
 	
 	public static Abolisher_X       abolisher_x       = new Abolisher_X     ();
 	public static Annihilator_X     annihilator_x     = new Annihilator_X   ();
