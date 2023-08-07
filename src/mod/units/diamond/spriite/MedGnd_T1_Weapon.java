@@ -38,7 +38,7 @@ public class MedGnd_T1_Weapon extends Weapon {
 	public MedGnd_T1_Weapon() {
 		
 		name = "critter-zone-spriite-beam";
-		reload = 1;
+		reload = 50;
 		cooldownTime = 18;
 		shoot.shots = 1;
 		inaccuracy = 0;
@@ -49,7 +49,9 @@ public class MedGnd_T1_Weapon extends Weapon {
 		shootCone = 2;
 		rotateSpeed = 360;
 		rotate = true;
-		continuous = true;
+		
+		// continuous = true;
+		
 		mirror = false;
 		soundPitchMin = 0.67f;
 		soundPitchMax = 1.83f;

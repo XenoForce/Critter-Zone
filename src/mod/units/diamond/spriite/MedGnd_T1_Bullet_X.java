@@ -30,19 +30,22 @@ import static arc.math.Angles.*;
 import static mindustry.Vars.*;
 
 
-public class MedGnd_T1_Bullet_X extends BulletType {
+public class MedGnd_T1_Bullet_X extends BasicBulletType {
 	
 	//---------------------------------------------------------------//
 	//  Constructor                                                  //
 	//---------------------------------------------------------------//
 	public MedGnd_T1_Bullet_X() {
 		
-		damage       = -50;
-		lifetime     = 1;
+		damage   = 16;
+		speed    = 2.4f;
+		lifetime = 45;
+		
+		width    = 3;
+		height   = 4;
+		
 		collides     = false;
 		keepVelocity = false;
-		backMove     = false;
-		speed        = 74;
 		
 		buildingDamageMultiplier = 0.6f;
 		
@@ -53,6 +56,8 @@ public class MedGnd_T1_Bullet_X extends BulletType {
 		hitEffect     = Fx.none;
 		
 		// hitSound = Vars.tree.loadSound("strikeZap");
+		
+		sprite = "circle-bullet";
 		
 	} //Constructor
 	
