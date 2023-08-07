@@ -42,7 +42,7 @@ public class Gnome_X extends UnitType {
 		localizedName = "Gnome X";
 		constructor = EntityMapping.map("toxopid");
 		
-		description = "Repairs units. Does not attack.";
+		description = "";
 		
 		speed = 0.55f;
 		

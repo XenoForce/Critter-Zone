@@ -44,7 +44,7 @@ public class Spriite_X extends UnitType {
 		
 		// Note: Internally named "spriite" as a variable conflict countermeasure.
 		
-		description = "Repairs damaged units. Does not attack.";
+		description = "";
 		
 		speed = 0.7f;
 		
